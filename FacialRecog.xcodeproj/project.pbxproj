@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0FE66E1DF48B5100730E9D /* test.py in Resources */ = {isa = PBXBuildFile; fileRef = DB0FE66D1DF48B5100730E9D /* test.py */; };
+		DB0FE6711DF5048C00730E9D /* kerasCNN.py in Resources */ = {isa = PBXBuildFile; fileRef = DB0FE66F1DF5048C00730E9D /* kerasCNN.py */; };
+		DB0FE6741DF50AB700730E9D /* kerasLoadModel.py in Resources */ = {isa = PBXBuildFile; fileRef = DB0FE6731DF50AB700730E9D /* kerasLoadModel.py */; };
+		DB1CF0AC1EB92EB80046B4B5 /* facialExpression_online.py in Resources */ = {isa = PBXBuildFile; fileRef = DB1CF0A91EB92EB80046B4B5 /* facialExpression_online.py */; };
+		DB1CF0AD1EB92EB80046B4B5 /* label.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1CF0AA1EB92EB80046B4B5 /* label.txt */; };
+		DB1CF0AE1EB92EB80046B4B5 /* weight.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1CF0AB1EB92EB80046B4B5 /* weight.txt */; };
+		DB2246D91EB6950A001032E1 /* my_model2.h5 in Resources */ = {isa = PBXBuildFile; fileRef = DB2246D81EB6950A001032E1 /* my_model2.h5 */; };
+		DB2246DB1EB6950A001032E1 /* my_model2.h5 in Resources */ = {isa = PBXBuildFile; fileRef = DB2246DA1EB6950A001032E1 /* my_model2.h5 */; };
+		DBB86EB01DF1EB35001E95C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB86EAF1DF1EB35001E95C0 /* AppDelegate.m */; };
+		DBB86EB31DF1EB35001E95C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB86EB21DF1EB35001E95C0 /* main.m */; };
+		DBB86EB51DF1EB35001E95C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB86EB41DF1EB35001E95C0 /* Assets.xcassets */; };
+		DBB86EB81DF1EB35001E95C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB86EB61DF1EB35001E95C0 /* MainMenu.xib */; };
+		DBB86EC31DF1EB35001E95C0 /* FacialRecogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB86EC21DF1EB35001E95C0 /* FacialRecogTests.m */; };
+		DBB86ECE1DF1EB35001E95C0 /* FacialRecogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB86ECD1DF1EB35001E95C0 /* FacialRecogUITests.m */; };
+		DBB86EDD1DF1EC3B001E95C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB86EDC1DF1EC3B001E95C0 /* ViewController.m */; };
+		DBB86EE01DF1EC50001E95C0 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB86EDF1DF1EC50001E95C0 /* CustomView.m */; };
+		DBB86EE31DF1ECD2001E95C0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB86EE21DF1ECD2001E95C0 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB86EBF1DF1EB35001E95C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB86EA31DF1EB35001E95C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB86EAA1DF1EB35001E95C0;
+			remoteInfo = FacialRecog;
+		};
+		DBB86ECA1DF1EB35001E95C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB86EA31DF1EB35001E95C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB86EAA1DF1EB35001E95C0;
+			remoteInfo = FacialRecog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0FE66D1DF48B5100730E9D /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		DB0FE66F1DF5048C00730E9D /* kerasCNN.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = kerasCNN.py; sourceTree = "<group>"; };
+		DB0FE6731DF50AB700730E9D /* kerasLoadModel.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = kerasLoadModel.py; sourceTree = "<group>"; };
+		DB1CF0A91EB92EB80046B4B5 /* facialExpression_online.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = facialExpression_online.py; sourceTree = "<group>"; };
+		DB1CF0AA1EB92EB80046B4B5 /* label.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = label.txt; sourceTree = "<group>"; };
+		DB1CF0AB1EB92EB80046B4B5 /* weight.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weight.txt; sourceTree = "<group>"; };
+		DB2246D81EB6950A001032E1 /* my_model2.h5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = my_model2.h5; sourceTree = "<group>"; };
+		DB2246DA1EB6950A001032E1 /* my_model2.h5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = my_model2.h5; sourceTree = "<group>"; };
+		DBB86EAB1DF1EB35001E95C0 /* FacialRecog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacialRecog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB86EAE1DF1EB35001E95C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBB86EAF1DF1EB35001E95C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBB86EB21DF1EB35001E95C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBB86EB41DF1EB35001E95C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB86EB71DF1EB35001E95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DBB86EB91DF1EB35001E95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB86EBE1DF1EB35001E95C0 /* FacialRecogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacialRecogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB86EC21DF1EB35001E95C0 /* FacialRecogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacialRecogTests.m; sourceTree = "<group>"; };
+		DBB86EC41DF1EB35001E95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB86EC91DF1EB35001E95C0 /* FacialRecogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacialRecogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB86ECD1DF1EB35001E95C0 /* FacialRecogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacialRecogUITests.m; sourceTree = "<group>"; };
+		DBB86ECF1DF1EB35001E95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB86EDB1DF1EC3B001E95C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBB86EDC1DF1EC3B001E95C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBB86EDE1DF1EC50001E95C0 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		DBB86EDF1DF1EC50001E95C0 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		DBB86EE21DF1ECD2001E95C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB86EA81DF1EB35001E95C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB86EE31DF1ECD2001E95C0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB86EBB1DF1EB35001E95C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB86EC61DF1EB35001E95C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB86EA21DF1EB35001E95C0 = {
+			isa = PBXGroup;
+			children = (
+				DBB86EAD1DF1EB35001E95C0 /* FacialRecog */,
+				DBB86EC11DF1EB35001E95C0 /* FacialRecogTests */,
+				DBB86ECC1DF1EB35001E95C0 /* FacialRecogUITests */,
+				DBB86EAC1DF1EB35001E95C0 /* Products */,
+				DBB86EE11DF1ECD2001E95C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB86EAC1DF1EB35001E95C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB86EAB1DF1EB35001E95C0 /* FacialRecog.app */,
+				DBB86EBE1DF1EB35001E95C0 /* FacialRecogTests.xctest */,
+				DBB86EC91DF1EB35001E95C0 /* FacialRecogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB86EAD1DF1EB35001E95C0 /* FacialRecog */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CF0A91EB92EB80046B4B5 /* facialExpression_online.py */,
+				DB1CF0AA1EB92EB80046B4B5 /* label.txt */,
+				DB1CF0AB1EB92EB80046B4B5 /* weight.txt */,
+				DB2246DA1EB6950A001032E1 /* my_model2.h5 */,
+				DB2246D81EB6950A001032E1 /* my_model2.h5 */,
+				DBB86EAE1DF1EB35001E95C0 /* AppDelegate.h */,
+				DBB86EAF1DF1EB35001E95C0 /* AppDelegate.m */,
+				DBB86EDB1DF1EC3B001E95C0 /* ViewController.h */,
+				DBB86EDC1DF1EC3B001E95C0 /* ViewController.m */,
+				DBB86EDE1DF1EC50001E95C0 /* CustomView.h */,
+				DBB86EDF1DF1EC50001E95C0 /* CustomView.m */,
+				DB0FE66F1DF5048C00730E9D /* kerasCNN.py */,
+				DB0FE6731DF50AB700730E9D /* kerasLoadModel.py */,
+				DB0FE66D1DF48B5100730E9D /* test.py */,
+				DBB86EB41DF1EB35001E95C0 /* Assets.xcassets */,
+				DBB86EB61DF1EB35001E95C0 /* MainMenu.xib */,
+				DBB86EB91DF1EB35001E95C0 /* Info.plist */,
+				DBB86EB11DF1EB35001E95C0 /* Supporting Files */,
+			);
+			path = FacialRecog;
+			sourceTree = "<group>";
+		};
+		DBB86EB11DF1EB35001E95C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB86EB21DF1EB35001E95C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBB86EC11DF1EB35001E95C0 /* FacialRecogTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB86EC21DF1EB35001E95C0 /* FacialRecogTests.m */,
+				DBB86EC41DF1EB35001E95C0 /* Info.plist */,
+			);
+			path = FacialRecogTests;
+			sourceTree = "<group>";
+		};
+		DBB86ECC1DF1EB35001E95C0 /* FacialRecogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB86ECD1DF1EB35001E95C0 /* FacialRecogUITests.m */,
+				DBB86ECF1DF1EB35001E95C0 /* Info.plist */,
+			);
+			path = FacialRecogUITests;
+			sourceTree = "<group>";
+		};
+		DBB86EE11DF1ECD2001E95C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB86EE21DF1ECD2001E95C0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB86EAA1DF1EB35001E95C0 /* FacialRecog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB86ED21DF1EB35001E95C0 /* Build configuration list for PBXNativeTarget "FacialRecog" */;
+			buildPhases = (
+				DBB86EA71DF1EB35001E95C0 /* Sources */,
+				DBB86EA81DF1EB35001E95C0 /* Frameworks */,
+				DBB86EA91DF1EB35001E95C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacialRecog;
+			productName = FacialRecog;
+			productReference = DBB86EAB1DF1EB35001E95C0 /* FacialRecog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB86EBD1DF1EB35001E95C0 /* FacialRecogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB86ED51DF1EB35001E95C0 /* Build configuration list for PBXNativeTarget "FacialRecogTests" */;
+			buildPhases = (
+				DBB86EBA1DF1EB35001E95C0 /* Sources */,
+				DBB86EBB1DF1EB35001E95C0 /* Frameworks */,
+				DBB86EBC1DF1EB35001E95C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB86EC01DF1EB35001E95C0 /* PBXTargetDependency */,
+			);
+			name = FacialRecogTests;
+			productName = FacialRecogTests;
+			productReference = DBB86EBE1DF1EB35001E95C0 /* FacialRecogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBB86EC81DF1EB35001E95C0 /* FacialRecogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB86ED81DF1EB35001E95C0 /* Build configuration list for PBXNativeTarget "FacialRecogUITests" */;
+			buildPhases = (
+				DBB86EC51DF1EB35001E95C0 /* Sources */,
+				DBB86EC61DF1EB35001E95C0 /* Frameworks */,
+				DBB86EC71DF1EB35001E95C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB86ECB1DF1EB35001E95C0 /* PBXTargetDependency */,
+			);
+			name = FacialRecogUITests;
+			productName = FacialRecogUITests;
+			productReference = DBB86EC91DF1EB35001E95C0 /* FacialRecogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB86EA31DF1EB35001E95C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZheyuanFu;
+				TargetAttributes = {
+					DBB86EAA1DF1EB35001E95C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8G76NTS53;
+						ProvisioningStyle = Automatic;
+					};
+					DBB86EBD1DF1EB35001E95C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8G76NTS53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBB86EAA1DF1EB35001E95C0;
+					};
+					DBB86EC81DF1EB35001E95C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A8G76NTS53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBB86EAA1DF1EB35001E95C0;
+					};
+				};
+			};
+			buildConfigurationList = DBB86EA61DF1EB35001E95C0 /* Build configuration list for PBXProject "FacialRecog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB86EA21DF1EB35001E95C0;
+			productRefGroup = DBB86EAC1DF1EB35001E95C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB86EAA1DF1EB35001E95C0 /* FacialRecog */,
+				DBB86EBD1DF1EB35001E95C0 /* FacialRecogTests */,
+				DBB86EC81DF1EB35001E95C0 /* FacialRecogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB86EA91DF1EB35001E95C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0FE66E1DF48B5100730E9D /* test.py in Resources */,
+				DBB86EB51DF1EB35001E95C0 /* Assets.xcassets in Resources */,
+				DB1CF0AD1EB92EB80046B4B5 /* label.txt in Resources */,
+				DB0FE6741DF50AB700730E9D /* kerasLoadModel.py in Resources */,
+				DB2246DB1EB6950A001032E1 /* my_model2.h5 in Resources */,
+				DB2246D91EB6950A001032E1 /* my_model2.h5 in Resources */,
+				DB1CF0AC1EB92EB80046B4B5 /* facialExpression_online.py in Resources */,
+				DBB86EB81DF1EB35001E95C0 /* MainMenu.xib in Resources */,
+				DB1CF0AE1EB92EB80046B4B5 /* weight.txt in Resources */,
+				DB0FE6711DF5048C00730E9D /* kerasCNN.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB86EBC1DF1EB35001E95C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB86EC71DF1EB35001E95C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB86EA71DF1EB35001E95C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB86EDD1DF1EC3B001E95C0 /* ViewController.m in Sources */,
+				DBB86EE01DF1EC50001E95C0 /* CustomView.m in Sources */,
+				DBB86EB31DF1EB35001E95C0 /* main.m in Sources */,
+				DBB86EB01DF1EB35001E95C0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB86EBA1DF1EB35001E95C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB86EC31DF1EB35001E95C0 /* FacialRecogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB86EC51DF1EB35001E95C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB86ECE1DF1EB35001E95C0 /* FacialRecogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB86EC01DF1EB35001E95C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB86EAA1DF1EB35001E95C0 /* FacialRecog */;
+			targetProxy = DBB86EBF1DF1EB35001E95C0 /* PBXContainerItemProxy */;
+		};
+		DBB86ECB1DF1EB35001E95C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB86EAA1DF1EB35001E95C0 /* FacialRecog */;
+			targetProxy = DBB86ECA1DF1EB35001E95C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB86EB61DF1EB35001E95C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB86EB71DF1EB35001E95C0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB86ED01DF1EB35001E95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBB86ED11DF1EB35001E95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBB86ED31DF1EB35001E95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8G76NTS53;
+				INFOPLIST_FILE = FacialRecog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzheyuan.FacialRecog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBB86ED41DF1EB35001E95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8G76NTS53;
+				INFOPLIST_FILE = FacialRecog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzheyuan.FacialRecog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBB86ED61DF1EB35001E95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8G76NTS53;
+				INFOPLIST_FILE = FacialRecogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzheyuan.FacialRecogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacialRecog.app/Contents/MacOS/FacialRecog";
+			};
+			name = Debug;
+		};
+		DBB86ED71DF1EB35001E95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8G76NTS53;
+				INFOPLIST_FILE = FacialRecogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzheyuan.FacialRecogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacialRecog.app/Contents/MacOS/FacialRecog";
+			};
+			name = Release;
+		};
+		DBB86ED91DF1EB35001E95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8G76NTS53;
+				INFOPLIST_FILE = FacialRecogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzheyuan.FacialRecogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacialRecog;
+			};
+			name = Debug;
+		};
+		DBB86EDA1DF1EB35001E95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8G76NTS53;
+				INFOPLIST_FILE = FacialRecogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzheyuan.FacialRecogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacialRecog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB86EA61DF1EB35001E95C0 /* Build configuration list for PBXProject "FacialRecog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB86ED01DF1EB35001E95C0 /* Debug */,
+				DBB86ED11DF1EB35001E95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB86ED21DF1EB35001E95C0 /* Build configuration list for PBXNativeTarget "FacialRecog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB86ED31DF1EB35001E95C0 /* Debug */,
+				DBB86ED41DF1EB35001E95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB86ED51DF1EB35001E95C0 /* Build configuration list for PBXNativeTarget "FacialRecogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB86ED61DF1EB35001E95C0 /* Debug */,
+				DBB86ED71DF1EB35001E95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB86ED81DF1EB35001E95C0 /* Build configuration list for PBXNativeTarget "FacialRecogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB86ED91DF1EB35001E95C0 /* Debug */,
+				DBB86EDA1DF1EB35001E95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB86EA31DF1EB35001E95C0 /* Project object */;
+}
